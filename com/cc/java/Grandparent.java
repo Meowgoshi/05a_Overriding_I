@@ -1,11 +1,10 @@
 package com.cc.java;
 
-public class Child extends Parent
+public class Grandparent 
 {
-    
     public String sayHello()
     {
-        return "Hello from child!";
+        return "Hello from grandparent!";
     }
 
     public String sayHello(String str)
@@ -13,4 +12,3 @@ public class Child extends Parent
         return str;
     }
 }
-
